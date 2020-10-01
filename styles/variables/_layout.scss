@@ -1,0 +1,24 @@
+
+/// Media breakpoints definition
+/// @group media-queries
+$media-breakpoints: (
+    xxs: 0,
+    xs: 320px,
+    sm: 544px,
+    md: 768px,
+    lg: 992px,
+    xl: 1366px
+);
+
+$grid-gutter: 15px;
+$grid-gutter-sm: 30px;
+
+$layout-horizontal-padding: 16px;
+$layout-horizontal-padding-md: 30px;
+
+/// Maximum width of the Layout container.
+/// The content normally grows with the width of the screen (minus padding),
+/// but whenever reaches $layout-max-width stops growing
+/// and hoirizontal margins kick in.
+/// @group layout
+$layout-max-width: 1200px;

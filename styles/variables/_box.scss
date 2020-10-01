@@ -1,0 +1,15 @@
+$border-default-color: $color-grey-200;
+
+// Default borders
+$border: 1px solid $border-default-color;
+$border-focus: 1px solid $color-blue-50;
+$border-active: 2px solid $color-blue-50;
+$border-error: 2px solid $color-danger;
+$border-warning: 2px solid $color-warning;
+
+// Default border radius
+$border-radius: 2px;
+
+// Shadows
+$shadow-blue: 0 0 0 1px $color-blue-50;
+$shadow: 0 3px 4px rgba(0, 0, 0, .1), 0 1px 0 rgba(0, 0, 0, .1);
