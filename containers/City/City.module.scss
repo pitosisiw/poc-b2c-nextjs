@@ -1,0 +1,31 @@
+@import "styles";
+
+.list {
+  max-width: $layout-max-width;
+  margin: 0 auto;
+  padding: 8 * $space-unit 2 * $space-unit;
+
+
+  ul,li {
+    list-style: none;
+    padding: 0;
+  }
+
+  a {
+    color: $color-black-100;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  li {
+    max-width: 300px;
+    padding: 2 * $space-unit;
+
+    img {
+      width: 100%;
+    }
+  }
+}

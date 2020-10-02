@@ -1,15 +1,6 @@
-import Link from "next/link";
-import { Layout } from "../components/Layout/Layout";
+import { NextComponentType } from "next";
+import { Home } from "../containers/Home/Home";
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
-  </Layout>
-);
+const HomePage: NextComponentType = () => <Home />;
 
-export default IndexPage;
+export default HomePage;

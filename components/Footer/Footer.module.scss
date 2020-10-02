@@ -1,9 +1,20 @@
-@import "styles/index";
+@import "styles";
 
 .footer {
   background-color: $color-blue-50;
+  padding: 2 * $space-unit;
   color: $color-white;
-  width: 100%;
-  padding-top: 48px;
-  padding-bottom: 48px;
+
+  ul,
+  li {
+    list-style: none;
+    padding: 0;
+    & + li {
+      margin-top: $space-unit;
+    }
+  }
+
+  a {
+    color: $color-white;
+  }
 }
