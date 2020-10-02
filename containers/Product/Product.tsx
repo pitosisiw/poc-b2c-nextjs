@@ -11,12 +11,13 @@ interface Props {
 
 export const Product: React.FC<Props> = ({ product }) => {
   const onClick = () => {
-    alert("You bought the bike!");
+    alert(`You bought the bike!`);
   };
 
+  // const width = window.innerWidth;
   return (
     <Layout
-      title=""
+      title={product.name}
       navbar={
         <Navbar
           middle={<NavbarLinks />}
